@@ -65,24 +65,24 @@ public class CalculateTest {
     
     @Test
     public void testAdd1() {
-         int result = calculate.divide(3, 5);
-         assertEquals(7, result, 0);
+         int result = calculate.add(3, 5);         
+         assertEquals(8, result, 0);
     }
     
     @Test
     public void testsubstract1() {
-         int result = calculate.divide(10, 3);
-         assertEquals(5, result, 0);
+         int result = calculate.substract(10, 3);
+         assertEquals(7, result);
     }
     @Test
     public void testMultiply1() {
-         int result = calculate.divide(10, 3);
-         assertEquals(60, result, 0);
+         int result = calculate.multiply(10, 3);
+         assertEquals(30, result);
     }
     @Test
     public void testDivide1() {
-         int result = calculate.divide(10, 3);
-         assertEquals(3.3, result, 0);
+         int result = calculate.divide(16, 3);
+         assertEquals(5, result, 0);
     }
 }
 
